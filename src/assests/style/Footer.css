@@ -1,0 +1,56 @@
+.footer{
+    background-color: rgb(68, 80, 66);
+    color : #f4f4f4;
+    padding : 4rem 0;
+}
+
+.footer h1{
+    color : rgb(186, 247, 186);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_about{
+    font-size: 1.3rem;
+    width : 100%;
+}
+
+.footer_links{
+    text-decoration: none;
+    color : #fff;
+    font-size: 1.3rem;
+}
+
+.footer_links:hover{
+    color : lightgreen;
+}
+
+.footer_no{
+    text-decoration: none;
+    color : #fff;
+    font-size: 1.1rem;
+}
+
+.footer_no:hover{
+    color : lightgreen;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+.footer{
+    
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    padding : 1.5rem 0;
+}
+
+.footer h1{
+    margin: 0.5rem 0;
+}
+
+.footer_no{
+    font-size: 1.2rem;
+}
+
+}
